@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%; }
+
+body {
+  width: 100%; }
+
+.section {
+  height: 50%;
+  color: #899eb5; }
+
+.scene {
+  height: 100%;
+  width: 100%; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+#address {
+  text-align: center;
+  margin: auto;
+  color: black; }
+
+.viewer {
+  height: 50%;
+  margin: auto;
+  max-width: 266.66px;
+  width: 100%;
+  background-image: url("../../images/22.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%; }
+
+.viewer.frame1 {
+  background-position: -266px 50%; }
+
+.viewer.frame2 {
+  background-position: -532px 50%; }
+
+/*# sourceMappingURL=Scroll.css.map */
